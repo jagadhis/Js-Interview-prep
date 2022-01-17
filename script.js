@@ -13,7 +13,7 @@ var hello = () => {
 }
 
 hello();
-
+//Think JS Interview Question
 const o = {
 "BreadOmlette": {
     "bread": 2,
@@ -69,3 +69,15 @@ console.log(counter);
 }
 
 sum();
+
+ 
+
+function sums(x,y){
+  return x+y;
+}
+console.log(sums(10,20));
+
+document.getElementById("demo").innerHTML = sums(10,20);
+  
+
+
