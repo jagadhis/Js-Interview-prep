@@ -88,3 +88,16 @@ function abc(){
     },1000);
 }
 abc();
+
+
+//closures
+
+function e(){
+  var i =10;
+  function f(){
+    console.log(i);
+  }
+  f();
+}
+
+e();
