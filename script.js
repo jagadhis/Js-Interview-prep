@@ -70,7 +70,7 @@ console.log(counter);
 
 sum();
 
- 
+//eventlistener 
 
 function sums(x,y){
   return x+y;
@@ -80,4 +80,11 @@ console.log(sums(10,20));
 document.getElementById("demo").innerHTML = sums(10,20);
   
 
-
+//settimeout
+function abc(){
+  var i=10;
+  setTimeout(() => {
+      console.log("hello");
+    },1000);
+}
+abc();
